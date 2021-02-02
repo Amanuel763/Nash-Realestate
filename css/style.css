@@ -9,26 +9,22 @@ html {
 
 body, html {
   font-family: "Vollkorn";
+  overflow-x: hidden;
   font-weight: 700;
   position: relative; }
 
-body {
-  overflow-x: hidden; }
-
 .section-how__wrapper-line {
   width: 10%;
-  margin-left: 12rem;
+  margin-left: 70rem;
   border-color: #fa52d5; }
 
 .section-agents__header-line {
   width: 10%;
-  margin-left: 70rem;
   border-color: #fa52d5; }
 
 .section-properties__header-line {
   margin-top: 2rem;
   width: 10%;
-  margin-left: 71rem;
   border-color: #fa52d5; }
 
 .header-navigation {
@@ -297,10 +293,14 @@ a.btn-down {
     margin-bottom: 10rem; }
     .section-agents .section-agents__header-text {
       font-size: 5rem;
-      transform: translate(43%, -50%);
+      transform: translate(40%, -50%);
       background-image: linear-gradient(to right, #da35f0, #306df0);
       -webkit-background-clip: text;
       color: transparent; }
+    .section-agents .section-agents__header hr {
+      margin-left: 70rem;
+      border-color: #fa52d5;
+      width: 10%; }
   .section-agents .agentsImage {
     overflow: hidden; }
     .section-agents .agentsImage img {
@@ -343,6 +343,10 @@ a.btn-down {
       background-image: linear-gradient(to right, #da35f0, #306df0);
       -webkit-background-clip: text;
       color: transparent; }
+    .section-properties__header hr {
+      margin-left: 73rem;
+      border-color: #fa52d5;
+      width: 10%; }
   .section-properties .propertyListing img {
     width: 100%;
     display: block; }
@@ -524,7 +528,7 @@ a.btn-down {
   .section-agents__header-text {
     transform: translate(37%, -50%) !important; }
   .section-agents__header-line {
-    transform: translate(-291%, -50%); }
+    transform: translate(-215%, -50%); }
   .section-properties__header-text {
     transform: translate(28%, -50%); }
   .section-properties__header-line {
@@ -591,10 +595,10 @@ a.btn-down {
     .section-how .fas {
       font-size: 5rem; }
   .section-agents__header-text {
-    transform: translate(32%, 10%) !important; }
+    transform: translate(33%, 10%) !important; }
   .section-agents__header-line {
     margin-top: 2rem;
-    transform: translate(-526%, 10%) !important; }
+    transform: translate(-456%, 10%) !important; }
   .section-properties__header {
     margin-left: -45rem !important; }
     .section-properties__header-text {
@@ -713,7 +717,7 @@ a.btn-down {
             margin-bottom: 2rem; }
   .section-agents__header-text {
     font-size: 4rem !important;
-    transform: translate(22%, 10%) !important; }
+    transform: translate(27%, 10%) !important; }
   .section-agents__header-line {
     transform: translate(444%, 10%) !important;
     margin-left: 0 !important; }

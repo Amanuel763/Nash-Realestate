@@ -8,6 +8,7 @@
         top: 18px;
         color: #999;
     }
+    
 
     .section-agents__header{
         margin-top: 5rem !important;
@@ -15,10 +16,15 @@
 
         &-text{
             font-size: 5rem;
-            transform: translate(43%, -50%);
+            transform: translate(40%, -50%);
             background-image: linear-gradient(to right, $color-light, $color-light-1);
             -webkit-background-clip: text;
             color: transparent;
+        }
+        hr{
+            margin-left: 70rem;
+            border-color: #fa52d5;
+            width: 10%;
         }
     }
 

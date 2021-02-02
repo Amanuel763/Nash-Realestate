@@ -70,7 +70,7 @@
             }
 
             &-line{
-                transform: translate(-291%, -50%);
+                transform: translate(-215%, -50%);
             }
         }
     }
@@ -222,12 +222,12 @@
         &__header{
             
             &-text{
-                transform: translate(32%, 10%) !important;
+                transform: translate(33%, 10%) !important;
             }
 
             &-line{
                 margin-top: 2rem;
-                transform: translate(-526%, 10%)!important;
+                transform: translate(-456%, 10%) !important;
             }
         }
 
@@ -496,10 +496,9 @@
     .section-agents{
 
         &__header{
-
             &-text{
                 font-size: 4rem !important;
-                transform: translate(22%, 10%) !important;
+                transform: translate(27%, 10%) !important;
             }
 
             &-line{
